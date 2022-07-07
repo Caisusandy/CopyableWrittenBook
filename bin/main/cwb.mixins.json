@@ -1,12 +1,15 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.fabricmc.example.mixin",
+  "package": "caisusandy.test.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
   ],
   "client": [
-    "ExampleMixin"
+    "ClientPlayerEntityMxn",
+    "ClientPlayNetworkHandlerMxn",
+    "BookEditScreenMxn",
+    "BookEditScreenAccessor"
   ],
   "injectors": {
     "defaultRequire": 1

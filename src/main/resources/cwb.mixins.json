@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "caisusandy.test.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client": [
+    "ClientPlayerEntityMxn",
+    "ClientPlayNetworkHandlerMxn",
+    "BookEditScreenMxn",
+    "BookEditScreenAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
